@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lavi.css" />
+    
+  </head>
+  <body>
+    <form>
+      <div class="page">
+        <h1>LOGIN</h1>
+        <div class="contents">
+          <div class="content1">
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="content2">
+            <input type="text" placeholder="Password" />
+          </div>
+        </div>
+        <div class="button">
+          <button type="button" id="loginbtn" onclick="login()">Login</button>
+        </div>
+        <div class="forget">
+          <a href="#">forget password?</a>
+        </div>
+        <div class="register">
+          <p>
+            Don't have an account! <a href="#" id="registerLink" onclick="Register()">Register</a>
+          </p>
+        </div>
+      </div>
+      <div class=" registerpage">
+        <h1>REGISTER</h1>
+        <div class="container">
+          <div class="container1">
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="container2">
+            <input type="text" placeholder="password" />
+          </div>
+        </div>
+        <div class="button2">
+          <button type="button" id="registerbtn" onclick="register()">register</button>
+        </div>
+         <div class="login">
+          <p>
+            already have an account! <a href="#" id="loginlink" onclick="Login()">Login</a>
+          </p>
+        </div>
+      </div>
+    </form>
+    
+    
+      <script src="script.js"></script>
+   
+  </body>
+</html>
+
